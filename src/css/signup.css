@@ -1,0 +1,40 @@
+.signup {
+    padding-bottom: 150px;
+}
+.signup-title {
+    text-align: left;
+    margin-bottom: 20px; 
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.13;
+    letter-spacing: -0.04em;
+}
+span {
+    color: #BEA69E;
+}
+.signup-text {
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: -0.02em;
+max-width: 430px;
+margin-bottom: 40px;
+}
+.signup-form {
+}
+.signup-input {
+    display: block;
+    margin-bottom: 14px;
+    background-color: transparent;
+    width: 480px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    line-height: 1.25;
+    color: #FFF;
+    padding-left: 18px;
+}
+.signup-input::placeholder {
+    color: #FFF;
+    opacity: 0.7;
+}
