@@ -1,10 +1,26 @@
 .section-footer {
 }
+
+.footer-line {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
 .footer-logo {
 }
-.footer-address-list {
+
+.footer-logo-svg {
+  fill: #ffffff;
 }
+
+.footer-address-list {
+  margin-top: 16px;
+}
+
 .footer-address-link {
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
 }
 .footer-link-wrap {
   display: flex;
@@ -18,9 +34,13 @@
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+.footer-soc-item {
   margin-bottom: 14px;
 }
-.footer-soc-link:last-child {
+
+.footer-soc-item:last-child {
   margin-bottom: 0;
 }
 
@@ -31,10 +51,13 @@
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+.footer-nav-item {
   margin-bottom: 14px;
 }
 
-.footer-nav-link:last-child {
+.footer-nav-item:last-child {
   margin-bottom: 0;
 }
 
