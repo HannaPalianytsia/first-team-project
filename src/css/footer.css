@@ -3,9 +3,18 @@
 
 .footer-line {
   border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 40px;
 }
 
 .footer-logo {
+}
+
+.footer-logo-wrap {
+}
+
+.footer-flex {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .footer-logo-svg {
@@ -21,7 +30,18 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 1.29;
+  display: inline-block;
 }
+
+.footer-address-link:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer-address-link:hover,
+.footer-address-link:focus {
+  color: #bea69e;
+}
+
 .footer-link-wrap {
   display: flex;
   gap: 40px;
@@ -34,6 +54,11 @@
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+  color: #bea69e;
 }
 
 .footer-soc-item {
@@ -53,6 +78,11 @@
   text-transform: uppercase;
 }
 
+.footer-nav-link:hover,
+.footer-nav-link:focus {
+  color: #bea69e;
+}
+
 .footer-nav-item {
   margin-bottom: 14px;
 }
@@ -65,6 +95,8 @@
   margin-top: 75px;
 }
 .footer-input {
+  width: 267px;
+  height: 60px;
   border-radius: 12px;
   background: #fff;
   padding: 20px 18px;
@@ -81,7 +113,7 @@
 .footer-btn {
   width: 60px;
   height: 60px;
-  /* padding: 18px 17px; */
+  padding: 18px 17px;
   border-radius: 12px;
   background-color: #1d1d1d;
   color: #fff;
@@ -89,12 +121,83 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 1.2;
+  margin-left: auto;
+}
+
+.footer-btn:hover {
+  background-color: #fff;
+  color: #121212;
 }
 
 .footer-text-wrap {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
+  align-items: start;
+  gap: 72px;
 }
 .footer-text {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.33;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-line {
+    margin-bottom: 50px;
+  }
+
+  .footer-text {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  .footer-flex {
+    flex-wrap: nowrap;
+    align-items: flex-start;
+  }
+
+  .footer-input {
+    max-width: 178px;
+  }
+
+  .footer-logo-svg {
+    width: 123px;
+    height: 16px;
+  }
+
+  .footer-link-wrap {
+    gap: 25px;
+    margin-left: 58px;
+  }
+
+  .footer-form {
+    margin-top: 0;
+    margin-left: auto;
+  }
+
+  .footer-link-wrap {
+    margin-top: 0;
+  }
+
+  .footer-btn {
+    margin-left: 16px;
+  }
+  .footer-text-wrap {
+    margin-top: 74px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer-link-wrap {
+    gap: 50px;
+    margin-left: 285px;
+  }
+  .footer-input {
+    max-width: 216px;
+  }
+  .footer-text-wrap {
+    margin-top: 50px;
+  }
 }
