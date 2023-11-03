@@ -6,6 +6,7 @@
 
 .advert-inner {
   display: flex;
+  overflow: hidden;
 }
 
 .advert-line-text {
