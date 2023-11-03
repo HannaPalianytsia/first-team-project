@@ -1,28 +1,31 @@
-.advert {
-  overflow: hidden;
-  font-family: 'Pridi', sans-serif;
-  font-size: 59px;
-  line-height: 1.08;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  background-color: #fff;
-}
 
+.advert-line {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 0;
+}
 
 .advert-inner {
   display: flex;
 }
 
-.advert-line {
+.advert-line-text {
+  color: #bea69e;
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
   flex-shrink: 0;
-  margin: 0;
-  padding: 24px 20px;
+  margin: 20px 0;
   min-width: 100%;
   white-space: nowrap;
-  animation-name: marqueeLine;
-  animation-duration: 5s;
+  animation-name: advertLine;
+  animation-duration: 8s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
+}
+
+.white-advert {
+  color: #fff;
 }
 
 @keyframes advertLine {
@@ -32,5 +35,23 @@
 
   to {
     transform: translateX(-100%);
+  }
+}
+
+@media screen and (min-width: 375px) {
+}
+
+@media screen and (min-width: 768px) {
+  .advert-line-text {
+    font-size: 40px;
+    line-height: 1.25;
+    margin: 24px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advert-line-text {
+    font-size: 59px;
+    line-height: 1.08;
   }
 }
