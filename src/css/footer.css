@@ -1,4 +1,7 @@
 .section-footer {
+  background-image: url(../img/footer/graphic-mob.png);
+  /* background-size: cover; */
+  background-position: center;
 }
 
 .footer-line {
@@ -148,6 +151,10 @@
     margin-bottom: 50px;
   }
 
+  .section-footer {
+    background-image: url(../img/footer/graphic-tab.png);
+  }
+
   .footer-text {
     font-size: 14px;
     line-height: 1.29;
@@ -190,6 +197,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .section-footer {
+    background-image: url(../img/footer/graphic-desct.png);
+  }
+
   .footer-link-wrap {
     gap: 50px;
     margin-left: 285px;
