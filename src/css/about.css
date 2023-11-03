@@ -1,0 +1,47 @@
+.about-us {
+    width: 335px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.about-us-title {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+    /* 114.286% */
+    letter-spacing: -1.12px;
+}
+
+.about-us-span {
+    color: #BEA69E;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -1.12px;
+}
+
+.about-us-foto {
+    border-radius: 1000px;
+    background: url(<path-to-image>), lightgray -16301954001208846px -514168741151723400px / 670326570992920700% 330827669314972600% no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.about-us-info {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    /* 128.571% */
+    letter-spacing: -0.28px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
