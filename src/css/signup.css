@@ -26,7 +26,7 @@
 .signup-input {
     display: block;
     margin-bottom: 8px;
-    background-color: transparent;
+    background-color: inherit;
     width: 100%;
     height: 46px;
     flex-shrink: 0;
@@ -46,7 +46,7 @@
     width: 100%;
     height: 112px;
     flex-shrink: 0;
-    background-color: transparent;
+    background-color: inherit;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.20);
     color: #FFF;
@@ -119,11 +119,6 @@
         line-height: 1.25;
     }
     .signup-input::placeholder {
-        color: #FFF;
-        opacity: 0.7;
-        line-height: 1.25;
-    }
-    .signup-input::placeholder {
         line-height: 1.25;
     }
     .signup-textarea {
@@ -173,7 +168,6 @@
         border-radius: 1000px;
         background-color: #BEA69E;
         align-self: flex-end;
-        box-shadow: -35.56212px 17.78106px 25.43959px 0px rgba(0, 0, 0, 0.26);
     }
     .signup-img-isabella {
         transform: translate(-15%, 35%);

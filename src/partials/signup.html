@@ -1,43 +1,47 @@
 <section class="signup" id="signup">
   <div class="container signup-container">
     <div>
-    <h2 class="signup-title">Sign <span>Up</span></h2>
-    <p class="signup-text">
-      Please use the form below to contact us. Enter your name, email, and
-      message and we'll get back to you shortly.
-    </p>
-    <form class="signup-form">
-      <input type="text"
-        name="user-name"
-        class="signup-input" 
-        placeholder="Enter your name"
-        required 
-      />
-      <input
-        type="email"
-        name="user-email" 
-        class="signup-input" 
-        placeholder="Enter your email"
-        required 
-      />
-      <textarea
-        name="user-text"
-        class="signup-textarea"
-        placeholder="Message"
-      ></textarea>
-      <button type="submit" class="signup-btn">SEND</button>
-    </form>
-    <p class="signup-text-below">By clicking on “Send” button, you agree to our
-       <a href="">Privacy Policy</a>,
-       and allow Promodo to use this information for marketing purposes.
-    </p>
+      <h2 class="signup-title">Sign <span>Up</span></h2>
+      <p class="signup-text">
+        Please use the form below to contact us. Enter your name, email, and
+        message and we'll get back to you shortly.
+      </p>
+      <form class="signup-form">
+        <input
+          type="text"
+          name="user-name"
+          class="signup-input"
+          placeholder="Enter your name"
+          pattern="^[a-zA-Z]+$"
+          required
+        />
+        <input
+          type="email"
+          name="user-email"
+          class="signup-input"
+          placeholder="Enter your email"
+          pattern="^\S+@\S+\.\S+$"
+          required
+        />
+        <textarea
+          name="user-text"
+          class="signup-textarea"
+          placeholder="Message"
+        ></textarea>
+        <button type="submit" class="signup-btn">SEND</button>
+      </form>
+      <p class="signup-text-below">
+        By clicking on “Send” button, you agree to our
+        <a href="">Privacy Policy</a>, and allow Promodo to use this information
+        for marketing purposes.
+      </p>
     </div>
     <div class="signup-img">
       <div class="signup-isabella">
         <img
           srcset="./img/isabella.png 1x, ./img/isabella-2x.png 2x"
           src="./img/isabella.png"
-          class="signup-img-isabella" 
+          class="signup-img-isabella"
           alt="small camera"
         />
       </div>
@@ -45,7 +49,7 @@
         <img
           srcset="./img/entry.png 1x, ./img/entry-2x.png 2x"
           src="./img/entry.png"
-          class="signup-img-entry" 
+          class="signup-img-entry"
           alt="camera"
         />
       </div>
