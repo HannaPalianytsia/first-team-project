@@ -74,6 +74,7 @@
     margin: 6px;
     fill: #777777;
     stroke-width: 1.3px;
+    stroke-linecap: round;
 }
 
 .courses-item-arrow:hover {
@@ -176,6 +177,6 @@
     }
 
     .courses-item {
-        width: calc((100% - 20px) / 3);
+        width: calc((100% - 40px) / 3);
     }
 }
