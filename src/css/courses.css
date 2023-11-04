@@ -75,6 +75,7 @@
     fill: #777777;
     stroke-width: 1.3px;
     stroke-linecap: round;
+    transform: rotate(-40deg);
 }
 
 .courses-item-arrow:hover {
