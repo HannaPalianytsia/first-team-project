@@ -1,7 +1,15 @@
 .section-footer {
   background-image: url(../img/footer/graphic-mob.png);
-  /* background-size: cover; */
+  background-size: cover;
   background-position: center;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .section-footer {
+    background-image: url(../img/footer/graphic-mob-x2.png);
+  }
 }
 
 .footer-line {
@@ -103,6 +111,7 @@
   border-radius: 12px;
   background: #fff;
   padding: 20px 18px;
+  border: none;
 }
 
 .footer-input::placeholder {
@@ -116,20 +125,23 @@
 .footer-btn {
   width: 60px;
   height: 60px;
-  padding: 18px 17px;
+  padding: 18px 16px;
   border-radius: 12px;
   background-color: #1d1d1d;
+  font-family: inherit;
   color: #fff;
   text-align: center;
   font-size: 20px;
   font-weight: 400;
   line-height: 1.2;
   margin-left: auto;
+  border: none;
 }
 
 .footer-btn:hover {
   background-color: #fff;
   color: #121212;
+  font-weight: 600;
 }
 
 .footer-text-wrap {
@@ -153,6 +165,14 @@
 
   .section-footer {
     background-image: url(../img/footer/graphic-tab.png);
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .section-footer {
+      background-image: url(../img/footer/graphic-tab-x2.png);
+    }
   }
 
   .footer-text {
@@ -199,6 +219,14 @@
 @media screen and (min-width: 1280px) {
   .section-footer {
     background-image: url(../img/footer/graphic-desct.png);
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .section-footer {
+      background-image: url(../img/footer/graphic-desct-x2.png);
+    }
   }
 
   .footer-link-wrap {
