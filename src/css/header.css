@@ -1,3 +1,4 @@
+
 .header{
     padding: 20px 0;
 }
@@ -11,11 +12,26 @@ border: 1px solid rgba(255, 255, 255, 0.20);
 height: 50px;
  align-items: center;
 }
+.header_nav_button{
+display: flex;
+align-items: center;
+}
 .header_logo{
 width: 127px;
 height: 20px;
 fill:#FFFFFF;
 flex-shrink: 0;
+}
+.header_desktop_nav{
+    display: none;
+}
+
+.header_desktop_nav_list{
+gap: 28px;
+display: flex;
+color: #FFF;
+font-size: 14px;
+text-transform: uppercase;
 }
 .header_main_content{
 display: flex;
@@ -36,7 +52,7 @@ border: none;
 .button_camera_icon{
 fill:#BEA69E66;
 }
-.button_camera:hover{
+.button_camera>.button_camera_icon:hover{
 fill: #BEA69E ; 
 }
 
@@ -50,12 +66,34 @@ height: 22px;
 width: 32px;
 height: 22px;
 }
+.header_sing_button{
+display:flex;
+width: 186px;
+height: 60px;
+justify-content: center;
+align-items: center;
+border-radius: 12px;
+background-color: #fff;
+color: #121212;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.55;
+text-transform: uppercase;
+margin-left: 14px;
+border: none;
+
+}
+.header_sing_button:hover{
+background-color: #BEA69E;
+
+}
 .header_navigation_window{
     width: 100%;
     height: 100%;
     background: rgba(18, 18, 18, 0.40);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    
 }
 .burger_list{
     visibility: hidden;
@@ -102,15 +140,17 @@ padding-top: 20px;
 flex-shrink: 0;
 padding-top: 133px;
 }
-
-
-
 .is_open {
-    visibility: visible;
-    opacity: 1;
-    cursor: pointer;}
+visibility: visible;
+opacity: 1;
+cursor: pointer;}
+
+
 @media screen and (min-width: 375px){
-    
+.header_sing_button{
+ display: none;
+}
+ 
 }
 
 @media screen and (min-width: 768px) {
@@ -123,11 +163,11 @@ width: 100%;
 height: 60px;
 }
 .button_camera{
-visibility: hidden;
+display: none;
 }
 .burger_list{
-    width: 480px;
-    height: 1024px;
+ width: 480px;
+ height: 1024px;
 }
 .header_icon_close{
     width: 40px;
@@ -137,23 +177,41 @@ visibility: hidden;
 padding: 232px 0 0 64px;
 }
 .header_img{
-    width: 476px;
-    padding-top: 118px;
+width: 476px;
+padding-top: 118px;
 }
 
 .header_about_us_list{
-    padding-top: 28px;
+padding-top: 28px;
 }
+.header_sing_button{
+display: block;
 }
 
-
-
+}
 
 @media screen and (min-width: 1280px){
-.button_camera{
-visibility: hidden;
+    
+.header_container{
+    display: flex;
+justify-content: space-between;
+width: 100%;
+height: 60px;
+padding: 22px 50px;
+}
+    .button_camera{
+display: none;
     }
  .button_burger{
- visibility: hidden;
+ display: none;
+    }
+    .header_sing_button{
+width: 238px;
+    }
+    .header_desktop_nav{
+display: block;  
+    }
+    .header_main_content{
+display: none;
     }
 }
