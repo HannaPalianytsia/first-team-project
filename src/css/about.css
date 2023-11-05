@@ -6,6 +6,13 @@
     gap: 40px;
 }
 
+@media screen and (min-width:1280px) {
+    .about-us {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
 .about-us-title {
     color: #FFF;
     font-size: 28px;
