@@ -71,6 +71,7 @@
     font-weight: 700;
     line-height: 1.56;
     text-transform: uppercase;
+    border: none;
 }
 .signup-text-below {
     color: rgba(255, 255, 255, 0.50);
