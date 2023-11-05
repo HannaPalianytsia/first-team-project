@@ -1,3 +1,47 @@
+/*-----header-hero-background-------*/
+
+.header-hero-background {
+  background-image: url(../img/header-hero-background/graphic-mobile.png);
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .header-hero-background {
+    background-image: url(../img/header-hero-background/graphic-mobile-x2.png);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-hero-background {
+    background-image: url(../img/header-hero-background/graphic-tab.png);
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .header-hero-background {
+      background-image: url(../img/header-hero-background/graphic-tab-x2.png);
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header-hero-background {
+    background-image: url(../img/header-hero-background/graphic-desctop.png);
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .header-hero-background {
+      background-image: url(../img/header-hero-background/graphic-desctop-x2.png);
+    }
+  }
+}
+
+/*-------FOOTER-------*/
+
 .section-footer {
   background-image: url(../img/footer/graphic-mob.png);
   background-size: cover;
