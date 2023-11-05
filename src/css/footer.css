@@ -2,6 +2,7 @@
   background-image: url(../img/footer/graphic-mob.png);
   background-size: cover;
   background-position: center;
+  padding-bottom: 25px;
 }
 
 @media screen and (min-device-pixel-ratio: 2),
