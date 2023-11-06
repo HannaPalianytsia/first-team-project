@@ -56,6 +56,7 @@ margin-bottom: 40px;
 }
 
 .hero-list {
+<<<<<<< Updated upstream
 display: inline-flex;
 height: 84px;
 justify-content: center;
@@ -63,6 +64,17 @@ align-items: flex-start;
 gap: 26px;
 flex-shrink: 0;
 margin-bottom: 31px;
+=======
+
+    display: inline-flex;
+        height: 84px;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 26px;
+        flex-shrink: 0;
+        margin-bottom: 31px;
+    
+>>>>>>> Stashed changes
 }
 
 .hero-link {
@@ -73,17 +85,32 @@ gap: 4px;
 flex-wrap: wrap;
 }
 .hero-link-all {
+<<<<<<< Updated upstream
 display: flex;
 flex-wrap: nowrap;
 height: 44px;
 flex-shrink: 0;
 margin: 0 auto ;
 /* outline: 1px solid white; */
+=======
+    display: flex;
+    flex-wrap: nowrap;
+    
+    height: 44px;
+    flex-shrink: 0;
+    
+    outline: 1px solid red;
+}
+.hero-link-icons {
+    
+    
+>>>>>>> Stashed changes
 }
 
 .hero-link-icons {}
 
 .hero-link-icon {
+<<<<<<< Updated upstream
 width: 44px;
 height: 44px;
 flex-shrink: 0;
@@ -103,6 +130,19 @@ z-index: 4;
 }
 .third {
 z-index: 2;
+=======
+    width: 44px;
+        height: 44px;
+        flex-shrink: 0;
+        border-radius: 100px;
+        border: 2px solid
+            /*#1D1D1D*/
+        ;
+        background: var(--avatar-user-square-caitlyn-king-neutral-background, url(<path-to-image>), lightgray 50% / cover no-repeat, #E0E0E0);
+        margin-right: -12px;
+        
+    
+>>>>>>> Stashed changes
 }
 
 .hero-link-png {}
@@ -142,6 +182,10 @@ gap: 4px;
         align-items: center;
         gap: 12px;
        margin-right: 20px;
+<<<<<<< Updated upstream
+=======
+        outline: 1px solid red;
+>>>>>>> Stashed changes
 }
 
 .hero-object-star {
@@ -187,6 +231,10 @@ gap: 4px;
 .hero-model {
 
         flex-shrink: 0;
+<<<<<<< Updated upstream
+=======
+        
+>>>>>>> Stashed changes
         margin: auto;
 }
 
@@ -212,9 +260,21 @@ gap: 4px;
     .hero-item-text {
         width: 295px;
     }
+<<<<<<< Updated upstream
 
         .hero-list {
     gap: 40px;
+=======
+        .hero-list {
+    
+            
+        gap: 40px;
+            
+    
+        }
+    .hero-link {
+    width: 109px;
+>>>>>>> Stashed changes
     }
 
     .hero-link {
@@ -232,12 +292,21 @@ gap: 4px;
 .hero-object-block {
     width: 57px;
 }
+<<<<<<< Updated upstream
 
 .hero-object-star {
     width: 44px;
     height: 44px;
 }
 
+=======
+.hero-object-star {
+   
+    width: 44px;
+    height: 44px;
+    
+}
+>>>>>>> Stashed changes
 .hero-object-text {
     width: 57px;
 }
