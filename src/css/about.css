@@ -1,5 +1,4 @@
 .about-us {
-    display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 40px;
@@ -46,7 +45,6 @@
 .about-us-foto {
     border-radius: 1000px;
     background: url(<path-to-image>), lightgray -16301954001208846px -514168741151723400px / 670326570992920700% 330827669314972600% no-repeat;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
