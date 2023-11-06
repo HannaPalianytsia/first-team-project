@@ -1,8 +1,5 @@
 .reviews-container {
   max-width: 375px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 0 auto;
   padding-bottom: 80px;
 }
 .reviews-title {
@@ -81,8 +78,6 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
     padding-bottom: 100px;
   }
   .reviews-item {
@@ -128,8 +123,6 @@
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
-    padding-left: 100px;
-    padding-right: 100px;
     padding-bottom: 150px;
   }
   .reviews-list-baker {
@@ -169,8 +162,6 @@
 @media screen and (min-width: 1440px) {
   .container {
     max-width: 1440px;
-    padding-left: 100px;
-    padding-right: 100px;
     padding-bottom: 150px;
   }
   .reviews-list-baker {
