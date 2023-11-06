@@ -20,6 +20,7 @@
     line-height: 32px;
     /* 114.286% */
     letter-spacing: -1.12px;
+    margin-bottom: 40px;
 }
 
 .about-us-span {
@@ -37,7 +38,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 40px;
+    margin-bottom: 40px;
 }
 
 .about-us-info {
@@ -49,5 +50,5 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 20px;
+    margin-bottom: 20px;
 }
