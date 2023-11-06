@@ -46,7 +46,6 @@
     line-height: 18px;
     /* 128.571% */
     letter-spacing: -0.28px;
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 20px;
