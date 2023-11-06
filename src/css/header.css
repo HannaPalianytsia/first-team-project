@@ -34,6 +34,12 @@ color: #FFF;
 font-size: 14px;
 text-transform: uppercase;
 }
+.header_desktop_nav_list:hover{
+ color: #BEA69E;
+}
+.header_desktop_nav_list:focus{
+color: #BEA69E;
+   }
 .header_main_content{
 display: flex;
 align-items: center;
@@ -109,7 +115,7 @@ cursor: pointer;
     right: 0;
 display: block;
 position: absolute;
-width: 128px;
+width: 218px;
 height: 812px;
 background: #BEA69E;
 }
