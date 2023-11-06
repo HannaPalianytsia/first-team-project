@@ -4,8 +4,21 @@
             <h2 class="about-us-title">About
                 <span class="about-us-span">Us</span>
             </h2>
-            <img class="about-us-foto" srcset="../img/Rectangle.jpg 1x, ../img/Rectangle@2x-min.jpg 2x"
-                src="../img/Rectangle.jpg" alt="Rectangle" width="209">
+            <picture class="about-us-foto">
+                <source srcset="
+                                                                ./img/Rectangle6-min.jpg    1x,
+                                                                ./img/desktop/Rectangle6@2x-min.jpg 2x
+                                                              " media="(min-width: 1280px)" />
+                <source srcset="
+                                                                ./img/tablet/RectangleTablet1x-min.jpg    1x,
+                                                                ./img/tablet/RectangleTablet@2x-min.jpg 2x
+                                                              " media="(min-width: 768px)" />
+                <source srcset="
+                                                                ./img/mobile/img/Rectangle1x-min.jpg   1x,
+                                                                ./img/mobile/img/Rectangle@2x-min.jpg 2x
+                                                              " media="(max-width: 767px)" />
+                <img src="./img/mobile/img/Rectangle1x-min.jpg" alt="Rectangle" />
+            </picture>
         </div>
         <div>
             <p class="about-us-info">Our photography school is designed to teach you everything you need to know about
