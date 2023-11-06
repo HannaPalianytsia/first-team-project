@@ -154,11 +154,6 @@ ol {
         margin-bottom: 180px;
     }
 
-    .courses-list {
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-
     .courses-item {
         padding: 32px;
         width: calc((100% - 20px) / 2);
