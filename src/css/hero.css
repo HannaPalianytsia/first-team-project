@@ -126,7 +126,7 @@ img {
   font-weight: 400;
   line-height: 1.28;
   letter-spacing: -0.04em;
-  margin-left: 4px;
+  /* margin-left: 4px; */
 }
 
 .hero-link-svg {
@@ -426,30 +426,12 @@ img {
     height: auto;
   }
 
-  .hero-link-text {
-  }
-
-  .hero-link-svg {
-  }
-
   .hero-object {
     width: 119px;
   }
 
-  .hero-object-star {
-  }
-
-  .hero-object-svg {
-  }
-
   .hero-object-block {
     gap: 8px;
-  }
-
-  .hero-object-text {
-  }
-
-  .hero-object-number {
   }
 
   .hero-model {
