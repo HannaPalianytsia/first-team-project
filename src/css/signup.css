@@ -63,6 +63,7 @@
 .signup-btn {
     display: block;
     max-width: 100%;
+    text-align: center;
     padding: 14px 146px;
     border-radius: 12px;
     background-color: #FFF;
@@ -71,6 +72,7 @@
     font-weight: 700;
     line-height: 1.56;
     text-transform: uppercase;
+    cursor: pointer;
     border: none;
 }
 .signup-text-below {
@@ -92,7 +94,7 @@
         max-width: 280px;
     }
     .signup-btn {
-        max-width: 375px;
+        max-width: 335px;
     }
     .signup-text-below {
         max-width: 335px;
@@ -142,7 +144,6 @@
         font-size: 14px;
         line-height: 1.29;
         max-width: 430px;
-        letter-spacing: 0.04em;
     }
 }
 @media screen and (min-width: 1280px) {
