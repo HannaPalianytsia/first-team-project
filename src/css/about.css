@@ -22,6 +22,19 @@
     margin-bottom: 40px;
 }
 
+@media screen and (min-width:768px) {
+    .about-us-title {
+        text-align: left;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .about-us-title {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+}
+
 .about-us-span {
     color: #BEA69E;
     font-size: 28px;
@@ -49,4 +62,10 @@
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 20px;
+}
+
+@media screen and (min-width:1280px) {
+    .about-us-info {
+        font-weight: 400;
+    }
 }
