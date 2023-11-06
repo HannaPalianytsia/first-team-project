@@ -75,10 +75,10 @@
   display: none;
 }
 @media screen and (min-width: 768px) {
-  .container {
+  /* .container {
     max-width: 768px;
     padding-bottom: 100px;
-  }
+  } */
   .reviews-title {
     margin-bottom: 50px;
   }
@@ -123,10 +123,10 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .container {
+  /* .container {
     max-width: 1280px;
     padding-bottom: 150px;
-  }
+  } */
   .reviews-list-baker {
     width: 530px;
     height: 216px;
@@ -161,10 +161,10 @@
   }
 }
 @media screen and (min-width: 1440px) {
-  .container {
+  /* .container {
     max-width: 1440px;
     padding-bottom: 150px;
-  }
+  } */
   .reviews-list-baker {
     width: 610px;
     height: 196px;
