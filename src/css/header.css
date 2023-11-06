@@ -106,6 +106,7 @@ cursor: pointer;
 }
 
 .burger_list{
+    right: 0;
 display: block;
 position: absolute;
 width: 128px;
@@ -113,7 +114,10 @@ height: 812px;
 background: #BEA69E;
 }
 .burger_icon_close{
-right: 35px;
+width: 32px;
+height: 32px;
+position: absolute;
+right: 20px;
 top: 20px;
 background-color:#BEA69E;
 border: none;
@@ -175,7 +179,7 @@ height: 60px;
 display: none;
 }
 .burger_list{
- width: 66%;
+ width: 480px;
  height: 1024px;
 }
 .header_icon_close{
@@ -199,7 +203,7 @@ display: block;
 .burger_icon_close{
 width: 40px;
 height: 40px;
-right: 55px;
+right: 32px;
 top: 20px;
 
 }
