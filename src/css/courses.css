@@ -1,3 +1,10 @@
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
 .courses-block {
     display: flex;
     flex-direction: column;
@@ -98,6 +105,7 @@
     font-weight: 500;
     line-height: 1.14;
     margin-bottom: 164px;
+    max-width: 265px;
 }
 
 .courses-content-text {
