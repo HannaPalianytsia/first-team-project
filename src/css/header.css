@@ -66,6 +66,7 @@ height: 22px;
 width: 32px;
 height: 22px;
 }
+
 .header_sing_button{
 display:flex;
 width: 186px;
@@ -88,7 +89,7 @@ background-color: #BEA69E;
 
 }
 .header_navigation_window{
-display: block;
+visibility: hidden;
 position: fixed;
 top: 0;
 width: 100%;
@@ -118,7 +119,7 @@ height: 32px;
 fill: #121212;
 flex-shrink: 0;
     }
-    .burger_list_title{
+.burger_list_title{
 padding-top: 180px;
  padding-left: 20px;
     }
