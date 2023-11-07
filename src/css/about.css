@@ -35,7 +35,7 @@
     .about-us-and {
         display: flex;
         flex-wrap: nowrap;
-        gap: 40px 20px;
+        gap: 20px 40px;
     }
 
     .about-us-info {
