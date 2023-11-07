@@ -88,9 +88,13 @@
   text-transform: uppercase;
   margin-left: 14px;
   border: none;
+  padding: 16px;
+  text-align: center;
 }
-.header_sing_button:hover {
-  background-color: #bea69e;
+.header_sing_button:hover,
+.header_sing_button:focus {
+  color: #bea69e;
+  background-color: #1d1d1d;
 }
 .header_navigation_window {
   display: block;
