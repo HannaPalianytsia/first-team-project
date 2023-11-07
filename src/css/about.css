@@ -16,9 +16,15 @@
         letter-spacing: -1.92px;
     }
 
+    .about-us-foto {
+        display: block;
+        /* max-width: 100%; */
+    }
+
     .about-us-parag {
         display: flex;
         gap: 40px;
+        margin-top: 50px;
     }
 
     .about-us-info {
@@ -35,12 +41,22 @@
     .about-us-and {
         display: flex;
         flex-wrap: nowrap;
+        align-items: flex-start;
         gap: 20px 40px;
     }
 
     .about-us-info {
-        font-size: 18px;
+        font-size: 16px;
         line-height: 20px;
+        letter-spacing: 0.02em;
+    }
+
+    .about-us-parag {
+        margin-top: 0;
+    }
+
+    .about-us-info:first-child {
+        margin-bottom: 0;
     }
 
 }
@@ -68,6 +84,11 @@
     border-radius: 1000px;
     background: url(<path-to-image>), lightgray -16301954001208846px -514168741151723400px / 670326570992920700% 330827669314972600% no-repeat;
     margin-bottom: 40px;
+}
+
+
+.about-us-parag {
+    margin-top: 40px;
 }
 
 .about-us-info {
