@@ -25,6 +25,8 @@
 .img-beker {
   border-radius: 100px;
   background: #e0e0e0;
+  width: 56px;
+  height: 56px;
 }
 .baker {
   display: inline-grid;
@@ -142,6 +144,8 @@
   .img-lowery {
     border-radius: 100px;
     background: #e0e0e0;
+    width: 56px;
+    height: 56px;
   }
   .lowery {
     display: inline-grid;
