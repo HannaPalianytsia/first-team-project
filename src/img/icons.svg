@@ -34,5 +34,12 @@
 <symbol id="icon-star" viewBox="0 0 32 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M16 2.667l4.12 8.346 9.213 1.347-6.666 6.493 1.573 9.174-8.24-4.334-8.24 4.334 1.573-9.174-6.666-6.493 9.213-1.347 4.12-8.346z"></path>
 </symbol>
+<symbol id="icon-star-2" viewBox="0 0 32 32">
+<path fill="#f1f1f1" style="fill: var(--color1, #f1f1f1)" d="M0 0h32v32h-32v-32z"></path>
+<path fill="#121212" style="fill: var(--color2, #121212)" d="M-697.6-1070.4h2304v7025.6h-2304v-7025.6z"></path>
+<path fill="#1d1d1d" style="fill: var(--color3, #1d1d1d)" d="M-489.6-814.4h1888c26.51 0 48 21.49 48 48v864c0 26.51-21.49 48-48 48h-1888c-26.51 0-48-21.49-48-48v-864c0-26.51 21.49-48 48-48z"></path>
+<path fill="#bea69e" style="fill: var(--color4, #bea69e)" d="M16-24c22.091 0 40 17.909 40 40s-17.909 40-40 40c-22.091 0-40-17.909-40-40s17.909-40 40-40z"></path>
+<path fill="none" stroke="#121212" style="stroke: var(--color2, #121212)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M16 2.667l4.12 8.347 9.213 1.347-6.667 6.493 1.573 9.173-8.24-4.333-8.24 4.333 1.573-9.173-6.667-6.493 9.213-1.347 4.12-8.347z"></path>
+</symbol>
 </defs>
 </svg>
