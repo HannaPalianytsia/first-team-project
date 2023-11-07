@@ -1,22 +1,19 @@
 .about-us {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .about-us-title {
   color: #fff;
   font-size: 28px;
   font-weight: 500;
-  line-height: 32px;
-  /* 114.286% */
+  line-height: 1.14;
   letter-spacing: -1.12px;
   margin-bottom: 40px;
 }
 
 .about-us-span {
   color: #bea69e;
-  font-size: 28px;
-  font-weight: 500;
-  line-height: 32px;
-  letter-spacing: -1.12px;
 }
 
 .about-us-foto {
@@ -24,7 +21,6 @@
   background: url(<path-to-image>),
     lightgray -16301954001208846px -514168741151723400px / 670326570992920700%
       330827669314972600% no-repeat;
-  margin-bottom: 40px;
 }
 
 .about-us-parag {
@@ -34,43 +30,46 @@
 .about-us-info {
   color: #fff;
   font-size: 14px;
-  line-height: 18px;
-  /* 128.571% */
-  letter-spacing: -0.28px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  max-width: 335px;
 }
 
 .about-us-info:first-child {
   margin-bottom: 20px;
 }
-@media screen and (min-width: 375px) {
-  .about-us {
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
-}
 
 @media screen and (min-width: 768px) {
   .about-us-title {
-    text-align: left;
     font-size: 48px;
-    line-height: 54px;
-    /* 112.5% */
+    line-height: 1.13;
     letter-spacing: -1.92px;
+    margin-bottom: 50px;
+  }
+
+  .about-us {
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   .about-us-foto {
-    display: block;
-    /* max-width: 100%; */
   }
 
   .about-us-parag {
     display: flex;
     gap: 40px;
-    margin-top: 50px;
   }
 
   .about-us-info {
-    width: 280px;
+    font-size: 16px;
+    line-height: 1.25;
+
+    max-width: 280px;
+  }
+
+  .about-us-info:first-child {
+    margin-bottom: 0;
   }
 }
 
@@ -84,20 +83,10 @@
     display: flex;
     flex-wrap: nowrap;
     align-items: flex-start;
-    gap: 20px 40px;
-  }
-
-  .about-us-info {
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.02em;
+    gap: 40px;
   }
 
   .about-us-parag {
     margin-top: 0;
-  }
-
-  .about-us-info:first-child {
-    margin-bottom: 0;
   }
 }
