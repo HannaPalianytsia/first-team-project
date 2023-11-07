@@ -16,7 +16,6 @@
 .reviews-list-baker {
   list-style: none;
   width: 100%;
-  height: 244px;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 20px;
@@ -86,7 +85,6 @@
   }
   .reviews-list-baker {
     width: 640px;
-    height: 196px;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     padding: 20px;
@@ -126,7 +124,6 @@
   }
   .reviews-list-baker {
     width: 530px;
-    height: 216px;
   }
   .reviews-list-lowery {
     width: 530px;
@@ -160,7 +157,6 @@
 @media screen and (min-width: 1440px) {
   .reviews-list-baker {
     width: 610px;
-    height: 196px;
   }
   .reviews-list-lowery {
     width: 610px;
