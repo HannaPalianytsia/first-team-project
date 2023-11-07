@@ -29,7 +29,7 @@ img {
   font-size: 40px;
   font-weight: 500;
   line-height: 1.1;
-  letter-spacing: -0, 04em;
+  letter-spacing: -0.04em;
   margin-bottom: 20px;
 }
 .hero-title-photog {
@@ -110,6 +110,7 @@ img {
   justify-content: center;
   align-items: center;
   gap: 4px;
+
 }
 
 .hero-link-btn {
@@ -117,6 +118,7 @@ img {
   justify-content: center;
   align-items: center;
   gap: 4px;
+  
 }
 
 .hero-link-text {
@@ -126,13 +128,14 @@ img {
   font-weight: 400;
   line-height: 1.28;
   letter-spacing: -0.04em;
-  /* margin-left: 4px; */
+  /* margin-left: 4px; */ 
 }
 
 .hero-link-svg {
   width: 18px;
   height: 8.66px;
   fill: #fff;
+
 }
 
 .hero-object {
@@ -305,7 +308,7 @@ img {
 
   .hero-link-item {
     display: flex;
-    height: 56px;
+    /* height: 56px; */ 
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
@@ -313,10 +316,11 @@ img {
 
   .hero-link-btn {
     display: flex;
-    height: 56px;
+   /* height: 56px; */
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
+    
   }
 
   .hero-link-text {
@@ -326,6 +330,9 @@ img {
   }
 
   .hero-link-svg {
+    display: flex;
+    align-items: center;
+      justify-content: center;
   }
 
   .hero-object {
