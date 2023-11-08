@@ -24,19 +24,19 @@
   margin-bottom: 20px;
 }
 .signup-input {
-    display: block;
-    margin-bottom: 8px;
-    background-color: inherit;
-    width: 100%;
-    height: 46px;
-    flex-shrink: 0;
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.20);
-    font-size: 14px;
-    line-height: 1.29;
-    color: #FFF;
-    padding-left: 18px;
-    outline: transparent;
+  display: block;
+  margin-bottom: 8px;
+  background-color: inherit;
+  width: 100%;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 14px;
+  line-height: 1.29;
+  color: #fff;
+  padding-left: 18px;
+  outline: transparent;
 }
 .signup-input::placeholder {
   color: #fff;
@@ -55,6 +55,7 @@
   padding: 14px 18px;
   resize: none;
   margin-bottom: 40px;
+  outline: transparent;
 }
 .signup-textarea::placeholder {
   color: #fff;
@@ -62,22 +63,23 @@
   line-height: 1.29;
 }
 .signup-btn {
-    display: block;
-    max-width: 100%;
-    text-align: center;
-    padding: 14px 127px;
-    border-radius: 12px;
-    background-color: #FFF;
-    color: #121212;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.56;
-    text-transform: uppercase;
-    cursor: pointer;
-    border: none;
-    transition-property: color, background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  text-align: center;
+  padding: 14px 0;
+  border-radius: 12px;
+  background-color: #fff;
+  color: #121212;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.56;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  transition-property: color, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .signup-btn:hover,
@@ -100,16 +102,16 @@
   display: none;
 }
 @media screen and (min-width: 375px) {
-    .signup-text {
-        max-width: 295px;
-    }
-    .signup-btn {
-        max-width: 335px;
-        padding: 14px 146px;
-    }
-    .signup-text-below {
-        max-width: 335px;
-    }
+  .signup-text {
+    max-width: 295px;
+  }
+  .signup-btn {
+    max-width: 335px;
+    padding: 14px 146px;
+  }
+  .signup-text-below {
+    max-width: 335px;
+  }
 }
 @media screen and (min-width: 768px) {
   .signup {

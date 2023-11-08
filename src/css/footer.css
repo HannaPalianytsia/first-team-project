@@ -63,12 +63,6 @@
   margin-top: 0;
 }
 
-.footer-logo {
-}
-
-.footer-logo-wrap {
-}
-
 .footer-flex {
   display: flex;
   flex-wrap: wrap;
@@ -107,8 +101,6 @@
   gap: 40px;
   margin-top: 40px;
 }
-.footer-soc-list {
-}
 .footer-soc-link {
   color: #fff;
   font-size: 14px;
@@ -132,8 +124,6 @@
   margin-bottom: 0;
 }
 
-.footer-nav-list {
-}
 .footer-nav-link {
   color: #fff;
   font-size: 14px;

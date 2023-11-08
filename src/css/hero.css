@@ -73,9 +73,6 @@ img {
   margin: 0 auto;
 }
 
-.hero-link-icons {
-}
-
 .hero-link-icon {
   width: 44px;
   height: 44px;
@@ -102,15 +99,11 @@ img {
   z-index: 2;
 }
 
-.hero-link-png {
-}
-
 .hero-link-item {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 4px;
-
 }
 
 .hero-link-btn {
@@ -118,7 +111,6 @@ img {
   justify-content: center;
   align-items: center;
   gap: 4px;
-  
 }
 
 .hero-link-text {
@@ -128,14 +120,13 @@ img {
   font-weight: 400;
   line-height: 1.28;
   letter-spacing: -0.04em;
-  /* margin-left: 4px; */ 
+  /* margin-left: 4px; */
 }
 
 .hero-link-svg {
   width: 18px;
   height: 8.66px;
   fill: #fff;
-
 }
 
 .hero-object {
@@ -154,8 +145,6 @@ img {
   background: #bea69e;
   align-items: center;
   justify-content: center;
-}
-.hero-object-svg {
 }
 
 .hero-object-block {
@@ -214,9 +203,6 @@ img {
 
   .hero-list {
     gap: 40px;
-  }
-
-  .hero-link {
   }
 
   .hero-link-all {
@@ -303,12 +289,9 @@ img {
     height: 54px;
   }
 
-  .hero-link-png {
-  }
-
   .hero-link-item {
     display: flex;
-    /* height: 56px; */ 
+    /* height: 56px; */
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
@@ -316,11 +299,10 @@ img {
 
   .hero-link-btn {
     display: flex;
-   /* height: 56px; */
+    /* height: 56px; */
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
-    
   }
 
   .hero-link-text {
@@ -332,7 +314,7 @@ img {
   .hero-link-svg {
     display: flex;
     align-items: center;
-      justify-content: center;
+    justify-content: center;
   }
 
   .hero-object {
@@ -375,9 +357,6 @@ img {
   .hero-model {
     width: 393px;
   }
-
-  .hero-model-png {
-  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -409,20 +388,8 @@ img {
     margin-bottom: 136px;
   }
 
-  .hero-list {
-  }
-
-  .hero-link {
-  }
-
   .hero-link-all {
     width: 135px;
-  }
-
-  .hero-link-icon {
-  }
-
-  .hero-link-png {
   }
 
   .hero-link-item {
@@ -448,8 +415,5 @@ img {
     position: absolute;
     bottom: 0;
     right: 50px;
-  }
-
-  .hero-model-png {
   }
 }

@@ -29,9 +29,9 @@
 .header_desktop_nav_list {
   padding-left: 97px;
   gap: 28px;
-  display: flex; 
+  display: flex;
 }
-.header_desktop_list{
+.header_desktop_list {
   color: #fff;
   font-size: 14px;
   text-transform: uppercase;
@@ -61,6 +61,7 @@
 }
 .button_camera_icon {
   fill: #bea69e66;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button_camera > .button_camera_icon:hover {
   fill: #bea69e;
@@ -96,6 +97,9 @@
   border: none;
   padding: 16px;
   text-align: center;
+  transition-property: color, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header_sing_button:hover,
 .header_sing_button:focus {
