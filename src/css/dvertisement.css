@@ -1,15 +1,14 @@
-
-.advert-line {
+.dvert-line {
   border: 1px solid rgba(255, 255, 255, 0.2);
   margin: 0;
 }
 
-.advert-inner {
+.dvert-inner {
   display: flex;
   overflow: hidden;
 }
 
-.advert-line-text {
+.dvert-line-text {
   color: #bea69e;
   line-height: 1.14;
   font-size: 28px;
@@ -25,7 +24,7 @@
   animation-iteration-count: infinite;
 }
 
-.white-advert {
+.white-dvert {
   color: #fff;
 }
 
@@ -43,7 +42,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .advert-line-text {
+  .dvert-line-text {
     font-size: 40px;
     line-height: 1.25;
     margin: 24px 0;
@@ -51,7 +50,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .advert-line-text {
+  .dvert-line-text {
     font-size: 59px;
     line-height: 1.08;
   }
