@@ -36,6 +36,7 @@
     line-height: 1.29;
     color: #FFF;
     padding-left: 18px;
+    outline: transparent;
 }
 .signup-input::placeholder {
     color: #FFF;
@@ -64,7 +65,7 @@
     display: block;
     max-width: 100%;
     text-align: center;
-    padding: 14px 146px;
+    padding: 14px 127px;
     border-radius: 12px;
     background-color: #FFF;
     color: #121212;
@@ -74,6 +75,9 @@
     text-transform: uppercase;
     cursor: pointer;
     border: none;
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .signup-text-below {
     color: rgba(255, 255, 255, 0.50);
