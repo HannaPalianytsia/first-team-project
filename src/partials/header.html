@@ -2,25 +2,27 @@
   <div class="container">
     <div class="header_nav_button">
       <div class="header_container">
-        <svg class="header_logo">
-          <use href="./img/icons.svg#icon-logo"></use>
-        </svg>
+        <a href="./index.html">
+          <svg class="header_logo">
+            <use href="./img/icons.svg#icon-logo"></use>
+          </svg>
+        </a>
         <nav class="header_desktop_nav">
           <ul class="header_desktop_nav_list">
             <li class="header_desktop_list">
-              <a href="#">About us</a>
+              <a href="#about-us">About us</a>
             </li>
             <li class="header_desktop_list">
-              <a href="#">Our courses</a>
+              <a href="#our-curses">Our courses</a>
             </li>
             <li class="header_desktop_list">
-              <a href="#">Our mentor</a>
+              <a href="#mentors">Our mentors</a>
             </li>
             <li class="header_desktop_list">
-              <a href="#">Reviews</a>
+              <a href="#reviews">Reviews</a>
             </li>
             <li class="header_desktop_list">
-              <a href="#">contacts</a>
+              <a href="#phone">contacts</a>
             </li>
           </ul>
         </nav>
@@ -37,45 +39,43 @@
           </button>
         </div>
       </div>
-      <div>
-        <button class="header_sing_button" type="button">Sign up</button>
-      </div>
+      <a href="#signup" class="header_sing_button">Sign up</a>
     </div>
-    <div class="header_navigation_window">
-      <!--to open the mobile navigation, enter the class"is_open"-->
-      <div class="burger_list">
-        <button class="burger_icon_close" type="button">
-          <svg class="header_icon_close">
-            <use href="./img/icons.svg#icon-close"></use>
-          </svg>
-        </button>
-        <nav>
-          <ul class="burger_list_title">
-            <li class="header_about_us">
-              <a href="#">About us</a>
-            </li>
-            <li class="header_about_us_list">
-              <a href="#">Our courses</a>
-            </li>
-            <li class="header_about_us_list">
-              <a href="#">Our mentor</a>
-            </li>
-            <li class="header_about_us_list">
-              <a href="#">Reviews</a>
-            </li>
-            <li class="header_about_us_list">
-              <a href="#">contacts</a>
-            </li>
-          </ul>
-        </nav>
-        <img
-          class="header_img"
-          srcset="./img/burgerpicture1.jpg 1x 
-./img/burgerpicture2.jpg 2x"
-          src="./img/burgerpicture1.jpg"
-          alt="burgerpicture"
-        />
-      </div>
+  </div>
+  <!--to remove the mobile menu enter the class 
+    " to_close "-->
+  <div class="header_navigation_window to_close">
+    <div class="burger_list">
+      <button class="burger_icon_close" type="button">
+        <svg class="header_icon_close">
+          <use href="./img/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <nav>
+        <ul class="burger_list_title">
+          <li class="header_about_us">
+            <a href="#about-us">About us</a>
+          </li>
+          <li class="header_about_us_list">
+            <a href="#our-curses">Our courses</a>
+          </li>
+          <li class="header_about_us_list">
+            <a href="#mentors">Our mentors</a>
+          </li>
+          <li class="header_about_us_list">
+            <a href="#reviews">Reviews</a>
+          </li>
+          <li class="header_about_us_list">
+            <a href="#phone">contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <img
+        class="header_img"
+        srcset="./img/burgerpicture1.jpg 1x, ./img/burgerpicture2.jpg 2x"
+        src="./img/burgerpicture1.jpg"
+        alt="burgerpicture"
+      />
     </div>
   </div>
 </header>
