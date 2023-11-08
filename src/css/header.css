@@ -27,11 +27,15 @@
 }
 
 .header_desktop_nav_list {
+  padding-left: 97px;
   gap: 28px;
-  display: flex;
+  display: flex; 
+}
+.header_desktop_list{
   color: #fff;
   font-size: 14px;
   text-transform: uppercase;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header_desktop_list:hover {
   color: #bea69e;
