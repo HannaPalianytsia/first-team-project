@@ -88,6 +88,9 @@
   font-weight: 400;
   line-height: 1.29;
   display: inline-block;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-address-link:not(:last-child) {
@@ -111,6 +114,9 @@
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-soc-link:hover,
@@ -133,6 +139,9 @@
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-nav-link:hover,
@@ -153,12 +162,13 @@
 }
 
 .footer-input {
-  width: 267px;
+  max-width: 267px;
   height: 60px;
   border-radius: 12px;
   background: #fff;
   padding: 20px 18px;
   border: none;
+  outline: transparent;
 }
 
 .footer-input::placeholder {
@@ -181,8 +191,11 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 1.2;
-  margin-left: auto;
+  margin-left: 8px;
   border: none;
+  transition-property: color, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-btn:hover {
