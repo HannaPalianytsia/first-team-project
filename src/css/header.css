@@ -30,6 +30,7 @@
   padding-left: 97px;
   gap: 28px;
   display: flex;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header_desktop_list {
   color: #fff;
@@ -98,8 +99,9 @@
   padding: 16px;
   text-align: center;
   transition-property: color, background-color;
-  transition-duration: 250ms;
+  transition-duration: 0,8s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .header_sing_button:hover,
 .header_sing_button:focus {
@@ -158,6 +160,8 @@
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .header_about_us_list {
   color: #121212;
@@ -165,6 +169,7 @@
   line-height: normal;
   text-transform: uppercase;
   padding-top: 20px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header_img {
   width: 100%;
